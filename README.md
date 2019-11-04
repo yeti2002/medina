@@ -26,7 +26,7 @@ Una vez creado nuestro proyecto debemos crear un archivo *“main.c”* para eso
 Seleccionamos *“Source Files”*, luego *“New”* y por ultimo *“main.c”*.
 Una vez creado el main.c podremos comenzar a programar en el, para esta guía utilizaremos un código ya hecho. Primero debemos configurar los pines I/O.
 
-- ![ocho](https://i.ibb.co/7bJvgzv/ocho.png"codigo").
+- ![ocho](https://i.ibb.co/7bJvgzv/ocho.png).
 
 Luego debemos tomar el valor de nuestro pin de entrada (en nuestro caso A1) y luego configurar los pines de salida (B1 y B2).
  
@@ -34,13 +34,13 @@ Luego debemos tomar el valor de nuestro pin de entrada (en nuestro caso A1) y lu
 En este caso cuando, presionemos el botón, el LED *B1* encendera y el *LED B2* se pagara, cuando soltemos estos cambiaran.
 Luego de programar nuestro código debemos compilarlo y enviarlo al micro, para esto utilizaremos la herramienta *“Clean and Build Main Project”*.
  
-- ![nueve](https://i.ibb.co/RTzYkgj/nueve.png"ejecución").
+- ![nueve](https://i.ibb.co/RTzYkgj/nueve.png).
 
 Esta herramienta buscara errores en el código y en caso de no haber ninguno compilara el programa. 
 Una vez compilado debemos enviarlo al micro, 
 para eso buscaremos en la carpeta del proyecto el archivo “.HEX”.
  
-- ![diez](https://i.ibb.co/zm2197S/diez.png"archivo . HEX").
+- ![diez](https://i.ibb.co/zm2197S/diez.png).
 
 Una vez encontremos el archivo simplemente debemos copiarlo y pegarlo al micro, el cual conectaremos mediante un cable USB al equi.
 
