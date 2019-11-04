@@ -6,22 +6,22 @@ Lo primero que debemos hacer es crear nuestro proyecto,
 para eso iremos a la pestaña “New Project” y seguiremos los pasos a continuación .
  
  
-- ![uno](https://i.ibb.co/b5p21nx/uno.png"carpeta").
-- ![dos](https://i.ibb.co/z5Mr2XL/dos.png"categoria").
-- ![tres](https://i.ibb.co/m57BxwF/tres.png"selección de micro").
+- ![uno](https://i.ibb.co/b5p21nx/uno.png).
+- ![dos](https://i.ibb.co/z5Mr2XL/dos.png).
+- ![tres](https://i.ibb.co/m57BxwF/tres.png).
 
 Aquí seleccionaremos el chip que queremos utilizar, 
 elegimos el **PIC18F47K40** ya que podremos simularlo en Proteus.
 
-- ![cuatro](https://i.ibb.co/k2fTJfn/cuatro.png"seleccion de herramienta").
-- ![cinco](https://i.ibb.co/xX50HtV/cinco.png"seleccion de compilador").
-- ![seis](https://i.ibb.co/kHyqbcz/seis.png"direccion del archivo").
+- ![cuatro](https://i.ibb.co/k2fTJfn/cuatro.png).
+- ![cinco](https://i.ibb.co/xX50HtV/cinco.png).
+- ![seis](https://i.ibb.co/kHyqbcz/seis.png).
  
 En este ultimo paso deberemos nombrar a nuestro proyecto, 
 nosotros utilizaremos el nombre *“ejemplo”*.
 Una vez creado nuestro proyecto debemos crear un archivo *“main.c”* para eso seguiremos los siguientes pasos.
 
-- ![siete](https://i.ibb.co/NYvfLQ8/siete.png"archivo main . c").
+- ![siete](https://i.ibb.co/NYvfLQ8/siete.png).
  
 Seleccionamos *“Source Files”*, luego *“New”* y por ultimo *“main.c”*.
 Una vez creado el main.c podremos comenzar a programar en el, para esta guía utilizaremos un código ya hecho. Primero debemos configurar los pines I/O.
