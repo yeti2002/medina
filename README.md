@@ -34,7 +34,7 @@ Luego debemos tomar el valor de nuestro pin de entrada (en nuestro caso A1) y lu
 En este caso cuando, presionemos el botón, el LED *B1* encendera y el *LED B2* se pagara, cuando soltemos estos cambiaran.
 Luego de programar nuestro código debemos compilarlo y enviarlo al micro, para esto utilizaremos la herramienta *“Clean and Build Main Project”*.
  
-- ![nueve](https://i.ibb.co/RTzYkgj/nueve.png).
+- ![nueve](https://i.ibb.co/RTzYkgj/nueve.png). 
 
 Esta herramienta buscara errores en el código y en caso de no haber ninguno compilara el programa. 
 Una vez compilado debemos enviarlo al micro, 
