@@ -1,0 +1,60 @@
+<p><body background="https://i.ibb.co/M2Hh54s/fonfovich.jpg"></p>
+
+<h2>MPLABX IDE</h2>
+
+<p>En esta guía mostraremos como programar un micro controlador con la <em>IDE MPLABX</em>, 
+utilizando como ejemplo un programa con el cual controlaremos 2 LED con un botón.
+Lo primero que debemos hacer es crear nuestro proyecto, 
+para eso iremos a la pestaña <em>“New Project”</em> y seguiremos los pasos a continuación .</p>
+
+<ul>
+<li><img src="https://i.ibb.co/b5p21nx/uno.png" alt="uno" title="carpeta" />.</li>
+<li><img src="https://i.ibb.co/z5Mr2XL/dos.png" alt="dos" title="categoria" />.</li>
+<li><img src="https://i.ibb.co/m57BxwF/tres.png" alt="tres" title="selección de micro" />.</li>
+</ul>
+
+<p>Aquí seleccionaremos el chip que queremos utilizar, 
+elegimos el <strong>PIC18F47K40</strong> ya que podremos simularlo en Proteus.</p>
+
+<ul>
+<li><img src="https://i.ibb.co/k2fTJfn/cuatro.png" alt="cuatro" title="seleccion de herramienta" />.</li>
+<li><img src="https://i.ibb.co/xX50HtV/cinco.png" alt="cinco" title="seleccion de compilador" />.</li>
+<li><img src="https://i.ibb.co/kHyqbcz/seis.png" alt="seis" title="direccion del archivo" />.</li>
+</ul>
+
+<p>En este ultimo paso deberemos nombrar a nuestro proyecto, 
+nosotros utilizaremos el nombre <em>“ejemplo”</em>.
+Una vez creado nuestro proyecto debemos crear un archivo <em>“main.c”</em> para eso seguiremos los siguientes pasos.</p>
+
+<ul>
+<li><img src="https://i.ibb.co/NYvfLQ8/siete.png" alt="siete" title="archivo main . c" />.</li>
+</ul>
+
+<p>Seleccionamos <em>“Source Files”</em>, luego <em>“New”</em> y por ultimo <em>“main.c”</em>.
+Una vez creado el main.c podremos comenzar a programar en el, para esta guía utilizaremos un código ya hecho. Primero debemos configurar los pines I/O.</p>
+
+<ul>
+<li><img src="https://i.ibb.co/7bJvgzv/ocho.png" alt="ocho" title="codigo" />.</li>
+</ul>
+
+<p>Luego debemos tomar el valor de nuestro pin de entrada (en nuestro caso A1) y luego configurar los pines de salida (B1 y B2).</p>
+
+<p>En este caso cuando, presionemos el botón, el LED <em>B1</em> encendera y el <em>LED B2</em> se pagara, cuando soltemos estos cambiaran.
+Luego de programar nuestro código debemos compilarlo y enviarlo al micro, para esto utilizaremos la herramienta <em>“Clean and Build Main Project”</em>.</p>
+
+<ul>
+<li><img src="https://i.ibb.co/RTzYkgj/nueve.png" alt="nueve" title="ejecución" />.</li>
+</ul>
+
+<p>Esta herramienta buscara errores en el código y en caso de no haber ninguno compilara el programa. 
+Una vez compilado debemos enviarlo al micro, 
+para eso buscaremos en la carpeta del proyecto el archivo “.HEX”.</p>
+
+<ul>
+<li><img src="https://i.ibb.co/zm2197S/diez.png" alt="diez" title="archivo . HEX" />.</li>
+</ul>
+
+<p>Una vez encontremos el archivo simplemente debemos copiarlo y pegarlo al micro, el cual conectaremos mediante un cable USB al equi.</p>
+
+<h3>espero que les haya servido esta informacion, buena suerte</h3>
+
